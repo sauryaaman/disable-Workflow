@@ -6,9 +6,9 @@ on:
      - main
 
 jobs:
-  disable:
+  disableworkflow:
     runs-on: ubuntu-latest
 
     steps:
       - name: aman
-        run: echo"Disable workflow devops"
+        run: echo "Disable workflow devops"
